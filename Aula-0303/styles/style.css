@@ -1,0 +1,54 @@
+body {
+  background: rgb(243, 89, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(243, 89, 255, 1) 5%,
+    rgba(27, 47, 77, 0.5648634453781513) 50%,
+    rgba(254, 42, 133, 1) 92%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+img {
+  width: 200px;
+}
+#semaforo-img {
+  display: flex;
+  margin: 0 auto;
+}
+
+.btn {
+  color: black !important;
+}
+
+.btn2 {
+  border: 2px solid rgb(0, 0, 0);
+  padding: 5px;
+  width: 70%;
+  /* height: 50%; */
+  border-radius: 10px;
+  background-color: rgba(86, 158, 19, 0.781);
+  margin: 0 auto;
+}
+
+.teste {
+  display: inline-block;
+}
+
+#semaforo-descricao,
+#semaforo-titulo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.testarr {
+  margin: 0 auto;
+  background-color: white;
+  border: 2px solid black;
+  width: 450px;
+  margin-top: 30px;
+  padding: 10px;
+}
